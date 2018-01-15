@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppThemeToolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+
+        <item name="android:textColor">@color/colorWhite</item>
+
+
+        <item name="android:colorBackground">@color/colorDarkedGray</item>
+
+        <item name="android:textColorSecondary">@color/colorBluberry</item>
+        <item name="android:textColorPrimary">@color/colorBluberry</item>
+
+        <item name="android:itemBackground">@color/colorPrimaryDark</item>
+
+
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+
+
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/colorWhite</item>
+
+
+        <item name="android:colorBackground">@color/colorDarkedGray</item>
+
+        <item name="android:textColorSecondary">@color/colorBluberry</item>
+        <item name="android:textColorPrimary">@color/colorBluberry</item>
+
+        <item name="android:itemBackground">@color/colorPrimaryDark</item>
+
+
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+
+    </style>
+</resources>
