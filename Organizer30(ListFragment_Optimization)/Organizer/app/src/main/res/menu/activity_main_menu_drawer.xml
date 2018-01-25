@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@android:drawable/dialog_holo_dark_frame"
+            android:title="Главная" />
+        <item
+            android:id="@+id/nav_calendardeeds"
+            android:icon="@android:drawable/dialog_holo_dark_frame"
+            android:title="Календарь" />
+        <item
+            android:id="@+id/nav_lists"
+            android:icon="@android:drawable/dialog_holo_dark_frame"
+            android:title="Списки дел" />
+        <item
+            android:id="@+id/nav_travel"
+            android:icon="@android:drawable/dialog_holo_dark_frame"
+            android:title="Организ. путешествий" />
+        <item
+            android:id="@+id/nav_finished_tasks"
+            android:title="Завершенные задачи" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/dialog_holo_dark_frame"
+            android:title="Настройки" />
+    </group>
+
+
+    <item android:title="Дополнительно">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@android:drawable/dialog_holo_dark_frame"
+                android:title="О приложении" />
+            <item
+                android:id="@+id/nav_themes"
+                android:icon="@android:drawable/dialog_holo_dark_frame"
+                android:title="Темы" />
+        </menu>
+    </item>
+
+</menu>
