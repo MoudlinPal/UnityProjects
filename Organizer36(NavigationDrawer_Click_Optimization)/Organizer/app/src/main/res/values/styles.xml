@@ -1,0 +1,103 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        
+        <item name="android:textColor">@color/PrimaryText</item>
+        
+
+        <item name="android:colorBackground">@color/TextIcons</item>
+
+
+        <item name="android:textColorPrimary">@color/PrimaryText</item>
+        <item name="android:textColorSecondary">@color/SecondaryText</item>
+        <item name="android:actionMenuTextColor">@color/LightPrimaryColor</item>
+
+
+        <item name="android:itemBackground">@color/PrimaryColor</item>
+
+
+        <item name="colorPrimaryDark">@color/DarkPrimaryColor</item>
+        <item name="colorPrimary">@color/PrimaryColor</item>
+        <item name="colorAccent">@color/AccentColor</item>
+        
+        
+        <item name="android:listDivider">@color/DividerColor</item>
+
+    </style>
+
+
+
+    <!-- Base application theme with ToolBar. -->
+    <style name="AppThemeToolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+
+
+
+
+        <item name="android:textColor">@color/PrimaryText</item>
+
+
+        <item name="android:colorBackground">@color/TextIcons</item>
+
+
+        <item name="android:textColorPrimary">@color/PrimaryText</item>
+        <item name="android:textColorSecondary">@color/SecondaryText</item>
+
+
+
+        <item name="android:itemBackground">@color/PrimaryColor</item>
+
+
+        <item name="colorPrimaryDark">@color/DarkPrimaryColor</item>
+        <item name="colorPrimary">@color/PrimaryColor</item>
+        <item name="colorAccent">@color/AccentColor</item>
+
+
+        <item name="android:listDivider">@color/DividerColor</item>
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+
+
+
+
+
+
+    <!-- Buttons -->
+    <style name="WhiteButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/BtnWhite</item>
+        <item name="colorControlHighlight">@color/BtnWhitePressed</item>
+    </style>
+
+
+
+
+
+
+</resources>
