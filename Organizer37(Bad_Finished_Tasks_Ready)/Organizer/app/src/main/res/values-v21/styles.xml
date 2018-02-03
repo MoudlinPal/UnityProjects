@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppThemeToolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:textColor">@color/PrimaryText</item>
+
+
+        <item name="android:colorBackground">@color/TextIcons</item>
+
+
+        <item name="android:textColorPrimary">@color/PrimaryText</item>
+        <item name="android:textColorSecondary">@color/SecondaryText</item>
+
+
+        <item name="android:itemBackground">@color/PrimaryColor</item>
+
+
+        <item name="colorPrimaryDark">@color/DarkPrimaryColor</item>
+        <item name="colorPrimary">@color/PrimaryColor</item>
+        <item name="colorAccent">@color/AccentColor</item>
+
+
+        <item name="android:listDivider">@color/DividerColor</item>
+
+    </style>
+
+
+
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:textColor">@color/PrimaryText</item>
+
+
+        <item name="android:colorBackground">@color/TextIcons</item>
+
+
+        <item name="android:textColorPrimary">@color/PrimaryText</item>
+        <item name="android:textColorSecondary">@color/SecondaryText</item>
+
+
+        <item name="android:itemBackground">@color/PrimaryColor</item>
+
+
+        <item name="colorPrimaryDark">@color/DarkPrimaryColor</item>
+        <item name="colorPrimary">@color/PrimaryColor</item>
+        <item name="colorAccent">@color/AccentColor</item>
+
+
+        <item name="android:listDivider">@color/DividerColor</item>
+
+    </style>
+
+
+
+
+
+
+
+    <!-- Buttons -->
+    <style name="WhiteButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/BtnWhite</item>
+        <item name="colorControlHighlight">@color/BtnWhitePressed</item>
+    </style>
+
+
+
+
+
+
+
+
+</resources>
