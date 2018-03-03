@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="DarkPrimaryColor">#015699</color>
+    <color name="LightPrimaryColor">#bbdefb</color>  <!---->
+    <color name="PrimaryColor">#0077bb</color>
+
+    <color name="PrimaryText">#212121</color>
+    <color name="SecondaryText">#757575</color>
+
+    <color name="IconFillColor">#2edd92</color>
+    <color name="Greeen">#00ff01</color>
+
+    <color name="TextIcons">#e8e8e8</color>
+    <color name="AccentColor">#0077bb</color>
+    <color name="AccentColorLast">#4caf50</color>
+
+    <color name="DividerColor">#BDBDBD</color>
+
+
+    <color name="JustWhite">#f1eeee</color>
+    <color name="OverdueColor">#b62a27</color>
+
+
+
+    <color name="BtnWhite">#ffffff</color>
+    <color name="BtnWhitePressed">#2edd92</color>
+    <color name="ColorForPermanentNotification">#dce5f4</color>
+    <color name="JustBlack">#000000</color>
+
+
+</resources>
