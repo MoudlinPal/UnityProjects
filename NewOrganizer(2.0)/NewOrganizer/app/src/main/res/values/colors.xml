@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="DarkPrimaryColor">#015699</color>
+    <color name="LightPrimaryColor">#bbdefb</color>  <!---->
+    <color name="PrimaryColor">#0077bb</color>
+
+    <color name="PrimaryText">#212121</color>
+    <color name="SecondaryText">#757575</color>
+
+    <color name="IconFillColor">#2edd92</color>
+    <color name="Greeen">#00ff01</color>
+
+    <color name="TextIcons">#e8e8e8</color>
+    <color name="AccentColor">#0077bb</color>
+    <color name="AccentColorLast">#4caf50</color>
+
+    <color name="DividerColor">#BDBDBD</color>
+
+
+    <color name="JustWhite">#f1eeee</color>
+    <color name="OverdueColor">#b62a27</color>
+
+
+
+    <color name="BtnWhite">#ffffff</color>
+    <color name="BtnWhitePressed">#2edd92</color>
+    <color name="ColorForPermanentNotification">#adc5ed</color>
+    <color name="JustBlack">#000000</color>
+
+
+
+
+
+    <!-- ///////////////     Default Theme     ////////////////  -->
+
+    <color name="VKThemeTextFalse">#2d2f2e</color>
+    <color name="VKThemeTextTrue">#648fb8</color>
+
+    <color name="VKThemeIconFalse">#aaafb3</color>
+    <color name="VKThemeIconTrue">#648fb8</color>
+
+    <!-- ///////////////     Default Theme     ////////////////  -->
+
+    <!-- ///////////////     Default Theme Night    ////////////////  -->
+    <color name="DefaultThemeNBackground">#d0e2fc</color>
+    <!-- ///////////////     Default Theme Night    ////////////////  -->
+
+
+
+
+
+
+
+    <!-- ///////////////     Night Theme     ////////////////  -->
+
+    <color name="NightTheme">#607D8B</color>
+    <color name="NightThemeAdditionalText">#CFD8DC</color>
+    <color name="NightThemeText">#FFFFFF</color>
+    <color name="NightThemeDarkPrimaryColor">#455A64</color>
+    <color name="NightThemeDarkColor">#212121</color>
+    <color name="NightThemeTextColorSecondary">#757575</color>
+    <color name="NightThemeAccentColor">#009688</color>
+    <color name="NightThemeColorPrimary">#607d8b</color>
+    <color name="NightThemeDarkColorPrimary">#455A64</color>
+
+    <!-- ///////////////     Night Theme     ////////////////  -->
+
+
+
+
+    <!-- ///////////////     Indigo Theme     ////////////////  -->
+
+    <color name="IndigoThemeBackground">#e8e8e8</color>
+
+    <color name="IndigoThemePrimaryColor">#3f51b5</color>
+    <color name="IndigoThemeLightPrimaryColor">#c5cae9</color>
+    <color name="IndigoThemeDarkPrimaryColor">#303F9F</color>
+
+    <color name="IndigoThemeAccentColor">#3F51B5</color>
+
+    <color name="IndigoThemePrimaryText">#212121</color>
+    <color name="IndigoThemeSecondaryText">#757575</color>
+
+    <color name="IndigoThemeDivider">#757575</color>
+
+    <!-- ///////////////     Indigo Theme     ////////////////  -->
+
+    <!-- ///////////////     Indigo Theme Night    ////////////////  -->
+    <color name="IndigoThemeNBackground">#ccccff</color>
+    <!-- ///////////////     Indigo Theme Night    ////////////////  -->
+
+
+
+
+
+    <!-- ///////////////     Green Theme     ////////////////  -->
+
+    <color name="GreenThemeBackground">#e8e8e8</color>
+
+    <color name="GreenThemePrimaryColor">#328036</color>
+    <color name="GreenThemeLightPrimaryColor">#C8E6C9</color>
+    <color name="GreenThemeDarkPrimaryColor">#2c7230</color>
+
+    <color name="GreenThemeAccentColor">#409443</color>
+
+    <color name="GreenThemePrimaryText">#212121</color>
+    <color name="GreenThemeSecondaryText">#757575</color>
+
+    <color name="GreenThemeDivider">#757575</color>
+
+    <!-- ///////////////     Green Theme     ////////////////  -->
+
+    <!-- ///////////////     Green Theme     ////////////////  -->
+    <color name="GreenThemeNBackground">#b4d6c9</color>
+    <!-- ///////////////     Green Theme     ////////////////  -->
+
+
+
+
+
+
+
+
+    <!-- ///////////////     Purple Theme     ////////////////  -->
+
+    <color name="PurpleThemeBackground">#e8e8e8</color>
+
+    <color name="PurpleThemePrimaryColor">#673ab7</color>
+    <color name="PurpleThemeLightPrimaryColor">#D1C4E9</color>
+    <color name="PurpleThemeDarkPrimaryColor">#512DA8</color>
+
+    <color name="PurpleThemeAccentColor">#673AB7</color>
+
+    <color name="PurpleThemePrimaryText">#212121</color>
+    <color name="PurpleThemeSecondaryText">#757575</color>
+
+    <color name="PurpleThemeDivider">#757575</color>
+
+    <!-- ///////////////     Purple Theme     ////////////////  -->
+
+    <!-- ///////////////     Purple Theme     ////////////////  -->
+    <color name="PurpleThemeNBackground">#ccccff</color>
+    <!-- ///////////////     Purple Theme     ////////////////  -->
+
+
+
+
+
+
+
+    <!-- ///////////////     Default T-Theme     ////////////////  -->
+
+    <color name="TThemeBackground">#e8e8e8</color>
+
+    <color name="TThemePrimaryColor">#517da2</color>
+    <color name="TThemeLightPrimaryColor">#517da2</color>
+    <color name="TThemeDarkPrimaryColor">#416480</color>
+
+    <color name="TThemeAccentColor">#517da2</color>
+
+    <color name="TThemePrimaryText">#202020</color>
+    <color name="TThemeSecondaryText">#757575</color>
+
+    <color name="TThemeDivider">#757575</color>
+
+    <!-- ///////////////     Default T-Theme     ////////////////  -->
+
+
+
+
+
+
+
+
+    <!-- ///////////////     Default T-Theme     ////////////////  -->
+
+    <color name="LeoThemeBackground">#004d6c</color>
+
+    <color name="LeoThemePrimaryColor">#1282aa</color>
+    <color name="LeoThemeLightPrimaryColor">#1695c2</color>
+    <color name="LeoThemeDarkPrimaryColor">#1282aa</color>
+
+    <color name="LeoThemeAccentColor">#1b925d</color>
+
+    <color name="LeoThemePrimaryText">#f7fefd</color>
+    <color name="LeoThemeSecondaryText">#1282aa</color>
+
+    <color name="LeoThemeDivider">#1282aa</color>
+
+
+    <color name="LeoFalse">#f9ffff</color>
+    <color name="LeoTrue">#32add1</color>
+
+    <!-- ///////////////     Default T-Theme     ////////////////  -->
+
+
+
+
+
+
+
+
+
+
+    <color name="transparentColor">#00000000</color>
+
+
+</resources>

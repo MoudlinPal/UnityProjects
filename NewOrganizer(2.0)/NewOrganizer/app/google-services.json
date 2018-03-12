@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "104593712309",
+    "firebase_url": "https://neworganizer-b401f.firebaseio.com",
+    "project_id": "neworganizer-b401f",
+    "storage_bucket": "neworganizer-b401f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104593712309:android:a56bc283d589bd0a",
+        "android_client_info": {
+          "package_name": "first.project.nikzhebindev.organizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104593712309-qn1pa2f4jhma035qni7rcnbljm1bf2n9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxT90DztC-kt0cZEDgPiw3G0EvmXuNeGc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

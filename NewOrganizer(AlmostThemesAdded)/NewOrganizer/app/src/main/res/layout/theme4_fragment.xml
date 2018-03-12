@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButtonPurple"
+        style="@android:style/Widget.DeviceDefault.ImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="88dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@color/PurpleThemePrimaryColor" />
+
+    <ImageButton
+        android:id="@+id/imageButtonPurpleNight"
+        style="@android:style/Widget.DeviceDefault.ImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButtonPurple"
+        android:layout_marginTop="82dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@color/PurpleThemeNBackground" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButtonIndigo"
+        style="@android:style/Widget.DeviceDefault.ImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="104dp"
+        android:background="@color/IndigoThemePrimaryColor"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@color/IndigoThemePrimaryColor" />
+
+    <ImageButton
+        android:id="@+id/imageButtonIndigoNight"
+        style="@android:style/Widget.DeviceDefault.ImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="99dp"
+        android:background="@color/IndigoThemeNBackground"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@color/IndigoThemeNBackground" />
+
+</RelativeLayout>
