@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--     <translate android:duration="300"
+         android:fromXDelta="-2.5%"
+         android:repeatCount="1"
+         android:repeatMode="reverse"
+         android:toXDelta="2.5%"/>
+
+     <scale
+         android:duration="200"
+         android:fromXScale="1.0"
+         android:fromYScale="1.0"
+         android:pivotX="50%"
+         android:pivotY="50%"
+         android:toXScale="0.8"
+         android:toYScale="0.8" />
+     <scale
+         android:duration="200"
+         android:fromXScale="0.8"
+         android:fromYScale="0.8"
+         android:pivotX="50%"
+         android:pivotY="50%"
+         android:toXScale="1.0"
+         android:toYScale="1.0" />-->
+
+
+      <translate
+          android:fromXDelta="-1%"
+          android:toXDelta="1%"
+          android:fromYDelta="0%"
+          android:toYDelta="0%"
+          android:duration="250"
+          />
+
+
+
+      </set>

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootNewTask"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="first.project.nikzhebindev.organizer.NewTask"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <include
+        android:id="@+id/toolbar_new"
+        layout="@layout/toolbar_newt" />
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="55dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/innerRootNewTask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/textViewHaveTask"
+                android:layout_width="270dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="28dp"
+                android:elevation="24dp"
+                android:gravity="start"
+                android:text="@string/do_u_got_a_task"
+                android:textAlignment="viewStart"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:layout_constraintHorizontal_bias="0.108"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:targetApi="lollipop" />
+
+            <EditText
+                android:id="@+id/editTask"
+                android:layout_width="282dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:hint="@string/enter_ur_task"
+                android:inputType="textMultiLine|textImeMultiLine"
+                android:textColor="@color/PrimaryText"
+                android:textSize="18sp"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.13"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewHaveTask" />
+
+            <ImageButton
+                android:id="@+id/imageBtnSpeak"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="16dp"
+                android:background="?android:attr/colorBackground"
+                android:contentDescription="@string/app_name"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="@+id/editTask"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/editTask"
+                app:srcCompat="@drawable/ic_micro_primary" android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/textViewSetDate"
+                android:layout_width="270dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="20dp"
+                android:gravity="start"
+                android:text="@string/set_date"
+                android:textAlignment="viewStart"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:layout_constraintHorizontal_bias="0.108"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTask" />
+
+            <EditText
+                android:id="@+id/editDate"
+                android:layout_width="235dp"
+                android:layout_height="45dp"
+
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+
+                android:cursorVisible="false"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:hint="@string/date_not_set"
+                android:inputType="date"
+                android:textColor="@color/PrimaryColor"
+                android:textSize="18sp"
+                android:visibility="visible"
+                app:layout_constraintHorizontal_bias="0.073"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewSetDate" />
+
+            <ImageButton
+                android:id="@+id/imageBtnDate"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/colorBackground"
+                android:contentDescription="@string/app_name"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="@+id/editDate"
+                app:layout_constraintHorizontal_bias="0.84"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/editDate"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/ic_btn_setdate" android:layout_marginStart="8dp" android:layout_marginEnd="16dp" />
+
+            <ImageButton
+                android:id="@+id/imgBtnClearDate"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/colorBackground"
+                android:contentDescription="@string/app_name"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="@+id/editDate"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toRightOf="@+id/editDate"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/editDate"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@android:drawable/ic_delete" android:layout_marginStart="8dp" android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/textViewSetTime"
+                android:layout_width="270dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="20dp"
+                android:gravity="start"
+                android:text="@string/set_time"
+                android:textAlignment="viewStart"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:layout_constraintHorizontal_bias="0.108"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editDate" />
+
+            <EditText
+                android:id="@+id/editTime"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+
+                android:cursorVisible="false"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="@string/time_not_set"
+                android:inputType="none"
+                android:textColor="@color/PrimaryColor"
+                android:textSize="18sp"
+                android:visibility="visible"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewSetTime" />
+
+            <ImageButton
+                android:id="@+id/imageBtnTime"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/colorBackground"
+                android:contentDescription="@string/app_name"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="@+id/editTime"
+                app:layout_constraintHorizontal_bias="0.816"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/editTime"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/ic_btn_settime" />
+
+            <ImageButton
+                android:id="@+id/imgBtnClearTime"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/colorBackground"
+                android:contentDescription="@string/app_name"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="@+id/editTime"
+                app:layout_constraintHorizontal_bias="0.862"
+                app:layout_constraintLeft_toRightOf="@+id/editTime"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/editTime"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@android:drawable/ic_delete" />
+
+            <TextView
+                android:id="@+id/textViewRepeat"
+                android:layout_width="270dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="19dp"
+                android:gravity="start"
+                android:text="@string/repeat"
+                android:textAlignment="viewStart"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:layout_constraintHorizontal_bias="0.108"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTime" />
+
+            <Button
+                android:id="@+id/btnRepeat"
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:layout_width="263dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="64dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="12dp"
+                android:gravity="center|start"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.142"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewRepeat"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textViewAddToList"
+                android:layout_width="270dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="19dp"
+                android:gravity="start"
+                android:text="@string/add_to_list"
+                android:textAlignment="viewStart"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:layout_constraintHorizontal_bias="0.108"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnRepeat" />
+
+            <Button
+                android:id="@+id/btnAddToList"
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:layout_width="263dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="100dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="12dp"
+                android:gravity="center|start"
+                android:textAlignment="gravity"
+                android:textAllCaps="false"
+                android:textColor="@color/PrimaryText"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.142"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewAddToList"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageButton
+                android:id="@+id/imgBtnNewList"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="8dp"
+                android:background="?android:attr/colorBackground"
+                android:contentDescription="@string/app_name"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="@+id/btnAddToList"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/btnAddToList"
+                app:layout_constraintTop_toBottomOf="@+id/textViewAddToList"
+                app:srcCompat="@drawable/ic_action_name" android:layout_marginEnd="8dp" />
+
+            <!--<Button
+                android:id="@+id/btnCheckTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHECK TIME"
+                android:visibility="gone"
+                tools:layout_editor_absoluteX="276dp"
+                tools:layout_editor_absoluteY="302dp" />-->
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

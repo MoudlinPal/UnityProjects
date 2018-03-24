@@ -1,0 +1,336 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:textColor">@color/PrimaryText</item>
+
+
+        <item name="android:colorBackground">@color/TextIcons</item>
+
+
+        <item name="android:textColorPrimary">@color/PrimaryText</item>
+        <item name="android:textColorSecondary">@color/SecondaryText</item>
+        <item name="android:actionMenuTextColor">@color/TextIcons</item>
+
+
+        <item name="android:itemBackground">@color/PrimaryColor</item>
+
+
+        <item name="colorPrimaryDark">@color/DarkPrimaryColor</item>
+        <item name="colorPrimary">@color/PrimaryColor</item>
+        <item name="colorAccent">@color/AccentColor</item>
+
+
+        <item name="android:listDivider">@color/DividerColor</item>
+
+
+        <item name="android:dialogTitle">@color/PrimaryColor</item>
+
+    </style>
+
+
+    <!-- Base application theme with ToolBar. -->
+    <style name="AppThemeToolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+
+        <item name="android:textColor">@color/PrimaryText</item>
+
+
+        <item name="android:colorBackground">@color/TextIcons</item>
+
+
+        <item name="android:textColorPrimary">@color/PrimaryText</item>
+        <item name="android:textColorSecondary">@color/SecondaryText</item>
+
+
+        <item name="android:itemBackground">@color/PrimaryColor</item>
+
+
+        <item name="colorPrimaryDark">@color/DarkPrimaryColor</item>
+        <item name="colorPrimary">@color/PrimaryColor</item>
+        <item name="colorAccent">@color/AccentColor</item>
+
+
+        <item name="android:listDivider">@color/DividerColor</item>
+
+
+        <item name="android:dialogTitle">@color/PrimaryColor</item>
+
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!-- Buttons -->
+    <style name="WhiteButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/BtnWhite</item>
+        <item name="colorControlHighlight">@color/BtnWhitePressed</item>
+    </style>
+    <!-- Buttons -->
+
+
+    <style name="AppThemeToolbar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppThemeToolbar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="TextAppearance.AppCompat.Notification.Title" parent="TextAppearance.AppCompat.Notification.Title" />
+
+    <style name="TextAppearance.AppCompat.Notification.Info" parent="TextAppearance.AppCompat.Notification.Info" />
+
+
+
+
+
+
+    <!-- ===================== Indigo Theme Night ======================= -->
+    <style name="DefaultThemeN" parent="AppTheme">
+        <item name="android:colorBackground">@color/DefaultThemeNBackground</item>
+    </style>
+    <!-- ===================== Indigo Theme Night ======================= -->
+
+
+
+
+
+
+
+
+
+
+    <!-- ===================== Night(Teal) Theme ======================= -->
+
+    <style name="NightTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+
+        <item name="android:colorBackground">@color/NightThemeAdditionalText</item>
+        <item name="android:textColorSecondary">@color/NightThemeTextColorSecondary</item>
+        <item name="android:textColorPrimary">@color/NightThemeDarkColor</item>
+
+        <item name="colorPrimaryDark">@color/NightThemeDarkColorPrimary</item>
+        <item name="colorPrimary">@color/NightThemeColorPrimary</item>
+        <item name="colorAccent">@color/NightThemeAccentColor</item>
+
+        <item name="android:datePickerStyle">@style/MyDialog</item>
+
+        <item name="android:dialogTheme">@style/MyDialog</item>
+
+    </style>
+
+    <style name="MyDialog" parent="@style/Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/NightThemeDarkColor</item>
+        <item name="colorAccent">@color/NightTheme</item>
+    </style>
+
+    <!-- ===================== Night(Teal) Theme ======================= -->
+
+
+
+    <!-- ===================== Indigo Theme ======================= -->
+
+    <style name="IndigoTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+
+        <item name="android:colorBackground">@color/IndigoThemeBackground</item>
+        <item name="android:textColorSecondary">@color/IndigoThemeSecondaryText</item>
+        <item name="android:textColorPrimary">@color/IndigoThemePrimaryText</item>
+
+        <item name="colorPrimaryDark">@color/IndigoThemeDarkPrimaryColor</item>
+        <item name="colorPrimary">@color/IndigoThemePrimaryColor</item>
+        <item name="colorAccent">@color/IndigoThemeAccentColor</item>
+
+        <item name="android:datePickerStyle">@style/MyDialogIndigo</item>
+
+        <item name="android:dialogTheme">@style/MyDialogIndigo</item>
+
+    </style>
+
+    <style name="MyDialogIndigo" parent="@style/Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/IndigoThemePrimaryText</item>
+        <item name="colorAccent">@color/IndigoThemeAccentColor</item>
+    </style>
+
+    <!-- ===================== Indigo Theme ======================= -->
+
+    <!-- ===================== Indigo Theme Night ======================= -->
+    <style name="IndigoThemeN" parent="IndigoTheme">
+        <item name="android:colorBackground">@color/IndigoThemeNBackground</item>
+    </style>
+    <!-- ===================== Indigo Theme Night ======================= -->
+
+
+
+
+
+
+
+
+    <!-- ===================== Green Theme ======================= -->
+
+    <style name="GreenTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+
+        <item name="android:colorBackground">@color/GreenThemeBackground</item>
+        <item name="android:textColorSecondary">@color/GreenThemeSecondaryText</item>
+        <item name="android:textColorPrimary">@color/GreenThemePrimaryText</item>
+
+        <item name="colorPrimaryDark">@color/GreenThemeDarkPrimaryColor</item>
+        <item name="colorPrimary">@color/GreenThemePrimaryColor</item>
+        <item name="colorAccent">@color/GreenThemeAccentColor</item>
+
+        <item name="android:datePickerStyle">@style/MyDialogGreen</item>
+
+        <item name="android:dialogTheme">@style/MyDialogGreen</item>
+
+    </style>
+
+    <style name="MyDialogGreen" parent="@style/Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/GreenThemePrimaryText</item>
+        <item name="colorAccent">@color/GreenThemeAccentColor</item>
+    </style>
+
+    <!-- ===================== Green Theme ======================= -->
+
+    <!-- ===================== Green Theme Night ======================= -->
+    <style name="GreenThemeN" parent="GreenTheme">
+        <item name="android:colorBackground">@color/GreenThemeNBackground</item>
+    </style>
+    <!-- ===================== Green Theme Night ======================= -->
+
+
+
+
+
+
+
+
+    <!-- ===================== Purple Theme ======================= -->
+
+    <style name="PurpleTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+
+        <item name="android:colorBackground">@color/PurpleThemeBackground</item>
+        <item name="android:textColorSecondary">@color/PurpleThemeSecondaryText</item>
+        <item name="android:textColorPrimary">@color/PurpleThemePrimaryText</item>
+
+        <item name="colorPrimaryDark">@color/PurpleThemeDarkPrimaryColor</item>
+        <item name="colorPrimary">@color/PurpleThemeDarkPrimaryColor</item>
+        <item name="colorAccent">@color/PurpleThemeDarkPrimaryColor</item>
+
+        <item name="android:datePickerStyle">@style/MyDialogPurple</item>
+
+        <item name="android:dialogTheme">@style/MyDialogPurple</item>
+
+    </style>
+
+    <style name="MyDialogPurple" parent="@style/Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/PurpleThemePrimaryText</item>
+        <item name="colorAccent">@color/PurpleThemeDarkPrimaryColor</item>
+    </style>
+
+    <!-- ===================== Purple Theme ======================= -->
+
+    <!-- ===================== Purple Theme N ======================= -->
+    <style name="PurpleThemeN" parent="PurpleTheme">
+        <item name="android:colorBackground">@color/PurpleThemeNBackground</item>
+    </style>
+    <!-- ===================== Purple Theme N ======================= -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ===================== TTheme ======================= -->
+
+    <style name="TTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+
+        <item name="android:colorBackground">@color/TThemeBackground</item>
+        <item name="android:textColorSecondary">@color/TThemeSecondaryText</item>
+        <item name="android:textColorPrimary">@color/TThemePrimaryText</item>
+
+        <item name="colorPrimaryDark">@color/TThemeDarkPrimaryColor</item>
+        <item name="colorPrimary">@color/TThemePrimaryColor</item>
+        <item name="colorAccent">@color/TThemeAccentColor</item>
+
+        <item name="android:datePickerStyle">@style/MyDialogT</item>
+
+        <item name="android:dialogTheme">@style/MyDialogT</item>
+
+    </style>
+
+    <style name="MyDialogT" parent="@style/Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/TThemePrimaryText</item>
+        <item name="colorAccent">@color/TThemeAccentColor</item>
+    </style>
+
+    <!-- ===================== TTheme ======================= -->
+
+
+
+
+
+
+
+
+    <!-- ===================== LeoTheme ======================= -->
+
+    <style name="LeoTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+
+        <item name="android:colorBackground">@color/LeoThemeBackground</item>
+        <item name="android:textColorSecondary">@color/LeoThemeSecondaryText</item>
+        <item name="android:textColorPrimary">@color/LeoThemeBackground</item>
+
+        <item name="colorPrimaryDark">@color/LeoThemeDarkPrimaryColor</item>
+        <item name="colorPrimary">@color/LeoThemePrimaryColor</item>
+        <item name="colorAccent">@color/LeoThemeAccentColor</item>
+
+        <item name="android:datePickerStyle">@style/MyDialogLeo</item>
+
+        <item name="android:dialogTheme">@style/MyDialogLeo</item>
+
+    </style>
+
+    <style name="MyDialogLeo" parent="@style/Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/LeoThemeBackground</item>
+        <item name="colorAccent">@color/LeoThemeAccentColor</item>
+    </style>
+
+    <!-- ===================== LeoTheme ======================= -->
+
+
+
+
+
+    <!-- ===================== Splash Theme ======================= -->
+    <style name="SplashTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+
+        <item name="android:colorBackground">@color/IndigoThemeLightPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/IndigoThemeLightPrimaryColor</item>
+        <item name="colorPrimary">@color/IndigoThemeLightPrimaryColor</item>
+
+    </style>
+    <!-- ===================== Splash Theme ======================= -->
+
+
+
+</resources>
