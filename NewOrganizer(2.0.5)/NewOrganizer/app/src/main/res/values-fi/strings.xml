@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Organizer</string>
+    <string name="item_remove_ads">Remove Ads</string>
+    <string name="item_remove_ads_summary">One payment to remove ads forever.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Asetukset</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+    <string name="empty">Se on tyhjä</string>
+
+
+    <!-- DIALOG EXIT -->
+    <string name="dialog_exit">Dialog exit</string>
+    <string name="dialog_advertising">Here will be advertising.</string>
+    <string name="yes">KYLLÄ</string>
+    <string name="no">EI</string>
+
+    <string name="apply_title">Apply</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete_list">Delete List</string>
+    <string name="rename_list">Rename List</string>
+    <!-- DIALOG EXIT -->
+
+
+    <!-- KINDS OF REPEATING -->
+
+    <string name="no_repeat">Ei ole toista</string>
+    <string name="once_an_hour">Kerran Tunnissa</string>
+    <string name="once_a_day">Kerran Päivässä</string>
+    <string name="once_a_week">Kerran Viikossa</string>
+    <string name="once_a_year">Kerran Vuodessa</string>
+
+    <!-- KINDS OF REPEATING -->
+
+
+    <!-- KINDS OF DEFAULT LISTS -->
+
+    <string name="defaultlist">Oletuksena</string>
+    <string name="personal">Henkilökohtainen</string>
+
+    <!-- KINDS OF DEFAULT LISTS -->
+
+
+    <string name="all_lists">Kaikki Luettelot</string>
+
+
+    <!-- PERMANENT NOTIFICATION -->
+
+    <string name="no_tasks_today">Ei tehtäviä tänään</string>
+    <string name="have_a_nice_day">On mukava päivä!</string>
+    <string name="amount_of_tasks">Tehtävät tänään:</string>
+    <string name="today">Tänään</string>
+
+    <!-- PERMANENT NOTIFICATION -->
+
+
+    <string name="lists_of_tasks">Luettelot</string>
+
+
+    <string name="do_u_want_to_exit">Haluatko poistua?</string>
+
+
+    <!-- DIALOG ADD NEW LIST -->
+
+    <string name="new_list">Uusi Lista</string>
+    <string name="add">Lisää</string>
+    <string name="cancel">Peruuta</string>
+
+    <string name="this_list_already_exist">Tällainen lista on jo olemassa!</string>
+    <string name="enter_list_name">Kirjoita listan nimi!</string>
+    <string name="list_is_added">Lista Lisätty</string>
+
+    <!-- DIALOG ADD NEW LIST -->
+
+
+    <!-- DIALOG Clear Finished Tasks -->
+
+    <string name="delete_ftasks">Poista valmiit tehtävät?</string>
+    <string name="tasks_deleted">Tehtävät Poistettu</string>
+
+    <!-- DIALOG Clear Finished Tasks -->
+
+
+    <string name="finished_tasks">Valmiit tehtävät</string>
+
+
+    <!-- DATE -->
+
+    <string name="no_date">Ei päivämäärää</string>
+
+
+    <!-- DATE -->
+
+
+    <string name="quit_without_saving">Lopeta tallentamatta?</string>
+
+
+    <string name="new_task">Uusi tehtävä</string>
+    <string name="enter_task">Kirjoita tehtävä ensin!</string>
+    <string name="task_not_modified">Tehtävä ei ole muutettu</string>
+    <string name="task_updated">Tehtävä Tallennetaan</string>
+    <string name="task_already_exist">Tällainen lista on jo olemassa!</string>
+    <string name="task_added">Tehtävä Lisätään</string>
+
+
+    <!-- Voice Recognition -->
+
+    <string name="speak">Puhu!</string>
+    <string name="sorry_device">Anteeksi! Laite ei tue tätä toimintoa!</string>
+
+    <!-- Voice Recognition -->
+
+
+    <string name="task_at">Tehtävä</string>
+
+
+    <string name="tomorrow">Huomenna</string>
+    <string name="day_after_tomorrow">Ylihuomenna</string>
+    <string name="this_month">Tässä kuussa</string>
+    <string name="next_month">Ensi kuussa</string>
+    <string name="this_year">Tänä vuonna</string>
+    <string name="later">Myöhemmin</string>
+
+    <string name="overdue">Myöhässä</string>
+
+
+    <string name="finish_task">Valmis tehtävä?</string>
+
+
+    <string name="task_finished">Tehtävä Valmis</string>
+
+
+    <string name="no_tasks">Ei tehtäviä</string>
+
+
+    <string name="u_cant_delete_this_list">Et voi poistaa tämä lista!</string>
+
+
+    <string name="list">Lista</string>
+    <string name="will_be_deleted">poistetaan.</string>
+    <string name="deleted">Poistettu</string>
+
+
+    <string name="u_cant_rename_this_list">Et voi poistaa tämä lista!</string>
+    <string name="rename_list_name">Nimeä lista</string>
+    <string name="rename">Nimeä</string>
+    <string name="renamed">Listan Nimeksi</string>
+
+
+    <string name="resume_task">Aikaa ei ole asetettu</string>
+    <string name="resumed">Tehtävä uudelleen!</string>
+
+
+    <string name="do_u_got_a_task">Sinulla on tehtävä?</string>
+    <string name="enter_ur_task">Kirjoita tehtävä täällä</string>
+    <string name="set_date">Aseta päivämäärä</string>
+    <string name="date_not_set">Date not set</string>
+    <string name="set_time">Aseta aika</string>
+    <string name="time_not_set">Aikaa ei ole asetettu</string>
+    <string name="repeat">Toista</string>
+    <string name="add_to_list">Lisää luetteloon</string>
+    <string name="hint_enter_list_name">Kirjoita listan nimi</string>
+    <string name="item_main">Tärkein</string>
+    <string name="item_lists">Luettelot</string>
+    <string name="item_finished_tasks">Valmiit tehtävät</string>
+    <string name="item_settings">Asetukset</string>
+    <string name="item_additionally">Lisäksi</string>
+    <string name="item_about">Tietoja app</string>
+    <string name="item_themes">Teemat</string>
+
+    <string name="amount_list_tasks">Tehtävät:</string>
+
+    <string name="wrong_time">Väärään aikaan!</string>
+
+
+    <!-- - - - - Settings - - - - -->
+
+    <string name="general">Yleinen</string>
+    <string name="notifications">Ilmoitukset</string>
+    <string name="additional">Lisää</string>
+    <string name="about">Tietoja app</string>
+
+
+    <string name="enabled">Käytössä</string>
+    <string name="disabled">Käytöstä</string>
+
+
+    <string name="status_bar">Status bar</string>
+    <string name="confirm_finishing_tasks">Vahvista viimeistely tehtäviä</string>
+    <string name="list_to_show_at_startup">Lista näyttää käynnistyksen</string>
+    <string name="vibration">Tärinä</string>
+    <string name="task_notification">Tehtävä ilmoitus</string>
+    <string name="images">Kuvia</string>
+
+
+    <string name="images_summary">Jos olet laahaa tai eivät pidä kissoista, vain kääntää se pois päältä</string>
+
+
+    <string-array name="array_language">
+        <item>Default</item>
+        <item>German</item>
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>Hindi</item>
+        <item>Portuguese</item>
+        <item>Russian</item>
+        <item>Chinese</item>
+    </string-array>
+
+
+    <string-array name="task_notification">
+        <item>On time</item>
+        <item>5 mins before</item>
+        <item>15 mins before</item>
+        <item>30 mins before</item>
+        <item>1 hour before</item>
+        <item>2 hours before</item>
+        <item>3 hours before</item>
+    </string-array>
+
+
+    <string name="settings_title">settings_title</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <!-- - - - - Settings - - - - -->
+
+    <string name="title_activity_about_app">Tietoja app</string>
+
+    <string name="large_text">
+        "\nOrganizer is your personal assistant, to-do list, calendar, Notepad, checklist, task list, "
+        "board notes, management tool, reminder app, daily planner, family organizer and the simple "
+        "and useful tool to increase your productivity."
+        "\n\nValue your time with Organizer."
+        "\n\nBasic possibilities: \n\nSorting your tasks"
+        "\nCreating tasks"
+        "\nEvent planning"
+        "\nThe removal and finishing of tasks"
+        "\nReminding"
+        "\n\nIntuitive and simple interface makes it easy to add and operate your tasks."
+        "\n\nVoice recording is added for easy creation of reminders. You're just saying that you're on your mind, and we're adding items to the to-do list."
+        "\n\nWith the release of new versions takes into account the wishes of the users listed in the reviews or sent by e-mail."
+        "\n\nIf you like this app, tap the star above and rate it *^_^*"
+        "\n"
+        "\n"
+        "\n"
+        "\n"
+    </string>
+
+    <string name="u_can_enable_disable">Voit ottaa käyttöön/poistaa käytöstä tilarivin täällä</string>
+    <string name="sound">Ääni</string>
+    <string name="set_ringtone">Aseta soittoääni</string>
+
+
+    <string name="time_format">Aika-muodossa</string>
+    <string-array name="array_time_formats">
+        <item>12-tunnin</item>
+        <item>24-tunnin</item>
+    </string-array>
+    <string name="insistent_notification">Insistent notification</string>
+
+
+</resources>

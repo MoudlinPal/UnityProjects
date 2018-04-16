@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Organizer</string>
+    <string name="item_remove_ads">Remove Ads</string>
+    <string name="item_remove_ads_summary">One payment to remove ads forever.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+    <string name="empty">"Il est vide "</string>
+
+
+    <!-- DIALOG EXIT -->
+    <string name="dialog_exit">Dialog exit</string>
+    <string name="dialog_advertising">Here will be advertising.</string>
+    <string name="yes">Oui</string>
+    <string name="no">Pas de</string>
+
+    <string name="apply_title">Apply</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete_list">Delete List</string>
+    <string name="rename_list">Rename List</string>
+    <!-- DIALOG EXIT -->
+
+
+
+
+
+
+    <!-- KINDS OF REPEATING -->
+
+    <string name="no_repeat">Pas de répétition</string>
+    <string name="once_an_hour">Une fois par Heure</string>
+    <string name="once_a_day">Une fois par Jour</string>
+    <string name="once_a_week">Une fois par Semaine</string>
+    <string name="once_a_year">Une fois par An</string>
+
+    <!-- KINDS OF REPEATING -->
+
+
+    <!-- KINDS OF DEFAULT LISTS -->
+
+    <string name="defaultlist">Par défaut</string>
+    <string name="personal">Personnels</string>
+
+    <!-- KINDS OF DEFAULT LISTS -->
+
+
+    <string name="all_lists">Toutes Les Listes</string>
+
+
+
+    <!-- PERMANENT NOTIFICATION -->
+
+    <string name="no_tasks_today">Pas de tâches aujourd\'hui</string>
+    <string name="have_a_nice_day">Belle journée</string>
+    <string name="amount_of_tasks">Les tâches d\'aujourd\'hui:</string>
+    <string name="today">Aujourd\'hui</string>
+
+    <!-- PERMANENT NOTIFICATION -->
+
+
+    <string name="lists_of_tasks">Listes</string>
+
+
+
+    <string name="do_u_want_to_exit">Voulez-vous quitter?</string>
+
+
+
+    <!-- DIALOG ADD NEW LIST -->
+
+    <string name="new_list">Nouvelle Liste</string>
+    <string name="add">Ajouter</string>
+    <string name="cancel">Annuler</string>
+
+    <string name="this_list_already_exist">Une telle liste existe déjà!</string>
+    <string name="enter_list_name">Entrez le nom de la liste!</string>
+    <string name="list_is_added">Liste Ajoutée</string>
+
+    <!-- DIALOG ADD NEW LIST -->
+
+
+
+    <!-- DIALOG Clear Finished Tasks -->
+
+    <string name="delete_ftasks">Supprimer les tâches terminées?</string>
+    <string name="tasks_deleted">Les Tâches Supprimées</string>
+
+    <!-- DIALOG Clear Finished Tasks -->
+
+
+    <string name="finished_tasks">Les tâches terminées</string>
+
+
+
+    <!-- DATE -->
+
+    <string name="no_date">Aucune date n\'</string>
+
+
+    <!-- DATE -->
+
+
+    <string name="quit_without_saving">Quitter sans sauvegarder?</string>
+
+
+
+
+    <string name="new_task">Nouvelle tâche</string>
+    <string name="enter_task">Saisissez la tâche au premier!</string>
+    <string name="task_not_modified">Tâche de ne pas modifiés</string>
+    <string name="task_updated">Tâche Enregistré</string>
+    <string name="task_already_exist">Une telle tâche est existe déjà!</string>
+    <string name="task_added">Tâche Ajoutée</string>
+
+
+
+    <!-- Voice Recognition -->
+
+    <string name="speak">Parler!</string>
+    <string name="sorry_device">Désolé! Votre appareil ne prend pas en charge cette fonctionnalité!</string>
+
+    <!-- Voice Recognition -->
+
+
+
+    <string name="task_at">Tâche à</string>
+
+
+
+
+
+    <string name="tomorrow">Demain</string>
+    <string name="day_after_tomorrow">Jour après-demain</string>
+    <string name="this_month">Ce mois-ci</string>
+    <string name="next_month">Le mois prochain</string>
+    <string name="this_year">Cette année</string>
+    <string name="later">Plus tard</string>
+
+    <string name="overdue">En retard</string>
+
+
+
+
+
+    <string name="finish_task">Terminer la tâche?</string>
+
+
+
+    <string name="task_finished">Tâche Terminée</string>
+
+
+
+    <string name="no_tasks">Pas de tâches</string>
+
+
+
+    <string name="u_cant_delete_this_list">Vous ne pouvez pas supprimer cette liste!</string>
+
+
+
+    <string name="list">Liste</string>
+    <string name="will_be_deleted">seront supprimés.</string>
+    <string name="deleted">Supprimé</string>
+
+
+
+    <string name="u_cant_rename_this_list">Vous ne pouvez pas renommer cette liste!</string>
+    <string name="rename_list_name">Renommer une liste</string>
+    <string name="rename">Renommer</string>
+    <string name="renamed">Liste Renommé</string>
+
+
+
+    <string name="resume_task">Résumé de la tâche?</string>
+    <string name="resumed">Reprise De La Tâche</string>
+
+
+
+    <string name="do_u_got_a_task">Avez-vous obtenu une tâche?</string>
+    <string name="enter_ur_task">Saisissez la tâche ici</string>
+    <string name="set_date">Régler la date</string>
+    <string name="date_not_set">Date non définie</string>
+    <string name="set_time">Régler l\'heure</string>
+    <string name="time_not_set">Heure non définie</string>
+    <string name="repeat">Répétez</string>
+    <string name="add_to_list">Ajouter à la liste</string>
+    <string name="hint_enter_list_name">Entrez le nom de la liste</string>
+    <string name="item_main">Principal</string>
+    <string name="item_lists">Listes</string>
+    <string name="item_finished_tasks">Les tâches terminées</string>
+    <string name="item_settings">Paramètres</string>
+    <string name="item_additionally">En outre</string>
+    <string name="item_about">Sur les app</string>
+    <string name="item_themes">Thèmes</string>
+
+
+
+
+
+
+
+    <string name="amount_list_tasks">Tâches:</string>
+
+    <string name="wrong_time">Mauvais moment!</string>
+
+
+
+
+
+
+
+
+    <!-- - - - - Settings - - - - -->
+
+    <string name="general">Général</string>
+    <string name="notifications">Les Notifications</string>
+    <string name="additional">Supplémentaires</string>
+    <string name="about">Sur</string>
+
+
+    <string name="enabled">Activé</string>
+    <string name="disabled">Désactivé</string>
+
+
+    <string name="status_bar">Barre d\'état</string>
+    <string name="confirm_finishing_tasks">Confirmer les tâches de finition</string>
+    <string name="list_to_show_at_startup">Liste à afficher au démarrage</string>
+    <string name="vibration">Les vibrations</string>
+    <string name="task_notification">Notification de tâche</string>
+    <string name="images">Images</string>
+
+
+    <string name="images_summary">Si vous avez des lags ou n'aiment pas les chats, juste l'éteindre</string>
+
+
+
+    <string-array name="array_language">
+        <item>Default</item>
+        <item>German</item>
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>Hindi</item>
+        <item>Portuguese</item>
+        <item>Russian</item>
+        <item>Chinese</item>
+    </string-array>
+
+
+    <string-array name="task_notification">
+        <item>À l'heure</item>
+        <item>5 minutes avant</item>
+        <item>15 minutes avant</item>
+        <item>30 minutes avant</item>
+        <item>1 heure avant</item>
+        <item>2 heures avant</item>
+        <item>3 heures avant</item>
+    </string-array>
+
+
+    <string name="settings_title">settings_title</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <!-- - - - - Settings - - - - -->
+
+    <string name="title_activity_about_app">Sur Demande</string>
+
+    <string name="large_text">
+        "\nOrganizer Il est votre assistant personnel, liste de tâches, calendrier, bloc-notes, "
+        "liste de contrôle, liste des tâches, le conseil des notes, outil de gestion, rappel app, "
+        "planificateur quotidien, de la famille et organisateur de la simple et utile outil pour augmenter votre productivité."
+        "\n\nLa valeur de votre temps!"
+        "\n\nDe base possibilités: \n\nTri de vos tâches"
+        "\nCréation de tâches"
+        "\nLa planification de l'événement"
+        "\nL'enlèvement et la finition des tâches"
+        "\nRappelant"
+        "\n\nIntuitif et interface simple le rend facile d'ajouter et d'exploiter vos tâches."
+        "\n\nL'enregistrement de la voix est ajouté pour faciliter la création de rappels. Vous êtes juste dire que vous êtes sur votre esprit, et nous sommes en ajoutant des éléments à la liste de choses à faire."
+        "\n\nAvec la sortie de la nouvelle version prend en compte les souhaits des utilisateurs répertoriés dans les commentaires ou envoyés par e-mail."
+        "\n\nSi vous aimez cette application, appuyez sur l'étoile au-dessus et taux de *^_^*"
+        "\n"
+        "\n"
+        "\n"
+        "\n"
+    </string>
+
+
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="u_can_enable_disable">Vous pouvez activer/désactiver la barre d\'état ici</string>
+    <string name="sound">Son</string>
+    <string name="set_ringtone">Réglez votre sonnerie</string>
+
+
+    <string name="time_format">Format de l\'heure</string>
+    <string-array name="array_time_formats">
+        <item>12 heures</item>
+        <item>24 heures</item>
+    </string-array>
+    <string name="insistent_notification">Insistent notification</string>
+
+
+</resources>

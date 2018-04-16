@@ -1,0 +1,374 @@
+<resources>
+    <string name="app_name">Organizer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+    <string name="empty">It is empty</string>
+
+
+    <!-- DIALOG EXIT -->
+    <string name="dialog_exit">Dialog exit</string>
+    <string name="dialog_advertising">Here will be advertising.</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+
+    <string name="apply_title">Apply</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete_list">Delete List</string>
+    <string name="rename_list">Rename List</string>
+    <!-- DIALOG EXIT -->
+
+
+    <!-- KINDS OF REPEATING -->
+
+    <string name="no_repeat">No repeat</string>
+    <string name="once_an_hour">Once an Hour</string>
+    <string name="once_a_day">Once a Day</string>
+    <string name="once_a_week">Once a Week</string>
+    <string name="once_a_year">Once a Year</string>
+
+    <!-- KINDS OF REPEATING -->
+
+
+    <!-- KINDS OF DEFAULT LISTS -->
+
+    <string name="defaultlist">Default</string>
+    <string name="personal">Personal</string>
+
+    <!-- KINDS OF DEFAULT LISTS -->
+
+
+    <string name="all_lists">All Lists</string>
+
+
+    <!-- PERMANENT NOTIFICATION -->
+
+    <string name="no_tasks_today">No tasks today</string>
+    <string name="have_a_nice_day">Have a nice day!</string>
+    <string name="amount_of_tasks">Tasks today:</string>
+    <string name="today">Today</string>
+
+    <!-- PERMANENT NOTIFICATION -->
+
+
+    <string name="lists_of_tasks">Lists</string>
+
+
+    <string name="do_u_want_to_exit">Do you want to exit?</string>
+
+
+    <!-- DIALOG ADD NEW LIST -->
+
+    <string name="new_list">New List</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="this_list_already_exist">Such list is already exists!</string>
+    <string name="enter_list_name">Enter list name!</string>
+    <string name="list_is_added">List Added</string>
+
+    <!-- DIALOG ADD NEW LIST -->
+
+
+    <!-- DIALOG Clear Finished Tasks -->
+
+    <string name="delete_ftasks">Delete finished tasks?</string>
+    <string name="tasks_deleted">Tasks Deleted</string>
+
+    <!-- DIALOG Clear Finished Tasks -->
+
+
+    <string name="finished_tasks">Finished tasks</string>
+
+
+    <!-- DATE -->
+
+    <string name="no_date">No date</string>
+
+
+    <!-- DATE -->
+
+
+    <string name="quit_without_saving">Quit without saving?</string>
+
+
+    <string name="new_task">New task</string>
+    <string name="enter_task">Enter task at first!</string>
+    <string name="task_not_modified">Task not modified</string>
+    <string name="task_updated">Task Saved</string>
+    <string name="task_already_exist">Such task is already exists!</string>
+    <string name="task_added">Task Added</string>
+
+
+    <!-- Voice Recognition -->
+
+    <string name="speak">Speak!</string>
+    <string name="sorry_device">Sorry! Your device does not support this feature!</string>
+
+    <!-- Voice Recognition -->
+
+
+    <string name="task_at">Task at</string>
+
+
+    <string name="tomorrow">Tomorrow</string>
+    <string name="day_after_tomorrow">Day after tomorrow</string>
+    <string name="this_month">This month</string>
+    <string name="next_month">Next month</string>
+    <string name="this_year">This year</string>
+    <string name="later">Later</string>
+
+    <string name="overdue">Overdue</string>
+
+
+    <string name="finish_task">Finish task?</string>
+
+
+    <string name="task_finished">Task Finished</string>
+
+
+    <string name="no_tasks">No tasks</string>
+
+
+    <string name="u_cant_delete_this_list">You cannot delete this list!</string>
+
+
+    <string name="list">List</string>
+    <string name="will_be_deleted">will be deleted.</string>
+    <string name="deleted">Deleted</string>
+
+
+    <string name="u_cant_rename_this_list">You cannot rename this list!</string>
+    <string name="rename_list_name">Rename list</string>
+    <string name="rename">Rename</string>
+    <string name="renamed">List Renamed</string>
+
+
+    <string name="resume_task">Resume task?</string>
+    <string name="resumed">Task resumed!"</string>
+
+
+    <string name="do_u_got_a_task">Do you got a task?</string>
+    <string name="enter_ur_task">Enter task here</string>
+    <string name="set_date">Set date</string>
+    <string name="date_not_set">Date not set</string>
+    <string name="set_time">Set time</string>
+    <string name="time_not_set">Time not set</string>
+    <string name="repeat">Repeat</string>
+    <string name="add_to_list">Add to list</string>
+    <string name="hint_enter_list_name">Enter list name</string>
+    <string name="item_main">Main</string>
+    <string name="item_lists">Lists</string>
+    <string name="item_finished_tasks">Finished tasks</string>
+    <string name="item_settings">Settings</string>
+    <string name="item_additionally">Additionally</string>
+    <string name="item_about">About app</string>
+    <string name="item_themes">Themes</string>
+
+    <string name="amount_list_tasks">Tasks:</string>
+
+    <string name="wrong_time">Wrong time!</string>
+
+
+    <!-- - - - - Settings - - - - -->
+
+    <string name="general">General</string>
+    <string name="notifications">Notifications</string>
+    <string name="additional">Additional</string>
+    <string name="about">About</string>
+
+
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+
+
+    <string name="status_bar">Status bar</string>
+    <string name="confirm_finishing_tasks">Confirm finishing tasks</string>
+    <string name="list_to_show_at_startup">List to show at startup</string>
+    <string name="vibration">Vibration</string>
+    <string name="task_notification">Task notification</string>
+    <string name="images">Images</string>
+
+
+    <string name="images_summary">If you have lags or do not like cats, just turn it off</string>
+
+
+    <string-array name="array_language">
+        <item>Default</item>
+        <item>German</item>
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>Hindi</item>
+        <item>Portuguese</item>
+        <item>Russian</item>
+        <item>Chinese</item>
+    </string-array>
+
+
+    <string-array name="task_notification">
+        <item>On time</item>
+        <item>5 mins before</item>
+        <item>15 mins before</item>
+        <item>30 mins before</item>
+        <item>1 hour before</item>
+        <item>2 hours before</item>
+        <item>3 hours before</item>
+    </string-array>
+
+
+    <string name="settings_title">settings_title</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <!-- - - - - Settings - - - - -->
+
+    <string name="title_activity_about_app">About App</string>
+
+    <string name="large_text">
+        "\nOrganizer is your personal assistant, to-do list, calendar, Notepad, checklist, task list, "
+        "board notes, management tool, reminder app, daily planner, family organizer and the simple "
+        "and useful tool to increase your productivity."
+        "\n\nValue your time with Organizer."
+        "\n\nBasic possibilities: \n - Sorting your tasks"
+        "\n - Creating tasks"
+        "\n - Event planning"
+        "\n - The removal and finishing of tasks"
+        "\n - Reminding"
+        "\n\nIntuitive and simple interface makes it easy to add and operate your tasks."
+        "\n\nVoice recording is added for easy creation of reminders. You're just saying that you're on your mind, and we're adding items to the to-do list."
+        "\n\nWith the release of new versions takes into account the wishes of the users listed in the reviews or sent by e-mail."
+        "\n\nIf you like this app, tap the star above and rate it *^_^*"
+        "\n"
+        "\n"
+        "\n"
+        "\n"
+    </string>
+
+
+    <string name="u_can_enable_disable">You can enable/disable status bar here</string>
+    <string name="sound">Sound</string>
+    <string name="set_ringtone">Set ringtone</string>
+
+    <string name="time_format">Time format</string>
+    <string-array name="array_time_formats">
+        <item>12-hour</item>
+        <item>24-hour</item>
+    </string-array>
+
+
+    <string name="title_activity_themes_fragment" translatable="false">ThemesFragment</string>
+    <string name="section_format" translatable="false">Hello World from section: %1$d</string>
+    <string name="insistent_notification">Insistent notification</string>
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="delete_ftasks_ad" translatable="false">ca-app-pub-5033052294993457/4741901811</string>
+    <string name="delete_list_ad" translatable="false">ca-app-pub-5033052294993457/2850806463</string>
+    <string name="exit_ad" translatable="false">ca-app-pub-5033052294993457/5376326632</string>
+    <string name="main_menu_banner" translatable="false">ca-app-pub-5033052294993457/7058957865</string>
+    <string name="on_start_ad" translatable="false">ca-app-pub-5033052294993457/8205051408</string>
+    <string name="reward_video_ad" translatable="false">ca-app-pub-5033052294993457/9412013217</string>
+
+
+
+
+
+
+    <string name="item_remove_ads">Remove Ads</string>
+    <string name="item_remove_ads_summary">One payment to remove ads forever.</string>
+
+
+
+
+
+
+
+</resources>

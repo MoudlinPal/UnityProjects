@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="@string/general">
+
+        <!--<ListPreference
+            android:key="languageListPreference"
+            android:title="Language"
+            android:summary="Default"
+            android:entries="@array/array_language"
+            android:entryValues="@array/array_language"
+            android:defaultValue="0"
+            android:dialogTitle="Language" />-->
+
+
+        <Preference
+            android:id="@+id/pref_remove_ads"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_launcher_round"
+            android:key="removeAds"
+            android:summary="@string/item_remove_ads_summary"
+            android:title="@string/item_remove_ads" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="permanentNotification"
+            android:summary="@string/enabled"
+            android:title="@string/status_bar" />
+
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="alarm_mode"
+            android:summary="@string/insistent_notification"
+            android:title="Alarm Mode" />
+
+
+
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/time_format"
+            android:entries="@array/array_time_formats"
+            android:entryValues="@array/array_time_formats"
+            android:key="time_format"
+            android:summary=""
+            android:title="@string/time_format" />
+
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="confirmFTasks"
+            android:summary="Enabled"
+            android:title="@string/confirm_finishing_tasks" />
+
+
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/list_to_show_at_startup"
+            android:key="listShowStartup"
+            android:summary="All Lists"
+            android:title="@string/list_to_show_at_startup" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/notifications">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="vibration"
+            android:summary="Enabled"
+            android:title="@string/vibration" />
+
+
+        <RingtonePreference
+            android:defaultValue="true"
+            android:key="my_ringtone_preference"
+            android:ringtoneType="all"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="@string/set_ringtone"
+            android:title="@string/sound" />
+
+
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/task_notification"
+            android:entries="@array/task_notification"
+            android:entryValues="@array/task_notification"
+            android:key="taskNotification"
+            android:summary="On time"
+            android:title="@string/task_notification" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/additional">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="Images"
+            android:summary="@string/images_summary"
+            android:title="@string/images" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/about">
+
+        <Preference
+            android:icon="@drawable/ic_launcher"
+            android:key="versionOrganizer"
+            android:summary="Version 2.0.5"
+            android:title="Organizer" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

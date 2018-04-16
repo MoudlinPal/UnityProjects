@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/item_main" />
+        <item
+            android:id="@+id/nav_lists"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="@string/item_lists" />
+        <item
+            android:id="@+id/nav_finished_tasks"
+            android:icon="@drawable/ic_assignment_turned_in_black_24dp"
+            android:title="@string/item_finished_tasks" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/item_settings" />
+    </group>
+
+        <item android:title="@string/item_additionally">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="@string/item_about" />
+                    <item
+                        android:id="@+id/nav_themes"
+                        android:icon="@drawable/ic_menu_gallery"
+                        android:title="@string/item_themes" />
+                    <item
+                        android:id="@+id/remove_ads"
+                        android:icon="@android:drawable/star_big_on"
+                        android:title="@string/item_remove_ads" />
+
+                </group>
+            </menu>
+        </item>
+
+
+
+
+
+
+
+
+</menu>

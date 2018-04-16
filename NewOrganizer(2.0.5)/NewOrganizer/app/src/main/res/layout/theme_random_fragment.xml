@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LeoThemeBackground"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal|center" >
+
+        <ImageButton
+            android:id="@+id/imageRandomTheme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/LeoThemeBackground"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/randomtheme" />
+    </TableRow>
+</TableLayout>

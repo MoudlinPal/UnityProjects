@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="first.project.nikzhebindev.organizer.MainMenu"
+    tools:showIn="@layout/app_bar_main_menu">
+
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/main_menu_banner" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="50dp"
+        android:layout_height="52dp"
+        android:layout_alignEnd="@+id/floatBtnToNewTask"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/floatBtnToNewTask">
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayoutForListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"><!--android:layout_above="@+id/adView"-->
+
+        <!--
+        <ListView
+            android:id="@id/android:list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+        -->
+
+    </FrameLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatBtnToNewTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingBottom="42dp"
+        ads:backgroundTint="?attr/colorPrimary"
+        ads:elevation="4dp"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/ic_add_task" />
+
+
+</RelativeLayout>
